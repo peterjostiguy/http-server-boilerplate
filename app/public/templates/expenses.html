@@ -1,0 +1,34 @@
+<h1>Expenses</h1>
+
+<form ng-submit="$ctrl.addExpense()">
+  <p>
+    Category: <input id="new-category">
+  </p>
+  <p>
+    Amount: <input id="new-amount">
+  </p>
+  <p>
+    <button type="submit">Add Expense</button>
+  </p>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Category</th>
+      <th>Amount</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>
+        <a href="#">edit</a>
+        <a href="#">delete</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -4,7 +4,7 @@
   angular.module('app')
     .component('expenses', {
       controller: controller,
-      template: ``
+      templateUrl: './templates/expenses.html'
     })
 
   function controller() {
