@@ -8,6 +8,10 @@
     })
 
   function controller() {
+    let vm = this;
+    vm.addExpense = function(){
+      console.log("hello");
+    }
   }
 
 }());
